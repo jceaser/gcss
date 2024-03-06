@@ -21,6 +21,7 @@ _testmain.go
 
 *.exe
 *.test
+gcss
 
 test/*.css
 cmd/gcss/test/*.css

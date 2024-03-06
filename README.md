@@ -68,9 +68,15 @@ or
 $ cat /path/to/gcss/file | gcss > /path/to/css/file
 ```
 
-## Compile from Go programs
+## Compile command locally
 
-You can compile a GCSS file from Go programs by invoking the `gcss.CompileFile` function.
+You can compile the command on the local system with the following:
+
+```$ go build -o gcss cmd/gcss/main.go```
+
+## Compile/translate from Go programs
+
+You can compile/translate a GCSS file from Go programs by invoking the `gcss.CompileFile` function.
 
 ```go
 cssPath, err := gcss.CompileFile("path_to_gcss_file")
